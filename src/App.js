@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="centered">
-      <h1>KYC Stub</h1>
+      <h1>Mandate Stub</h1>
       <div className="button-container">
         <Link to={`/success?${generateQueryString(params)}`} className="button1">Success</Link>
         <div className="button-gap" />
