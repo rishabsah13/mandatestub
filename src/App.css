@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .centered {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  height: 100vh; /* Adjust the height as needed */
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Adjust the height as needed */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-}
+  
+  .button-gap {
+    width: 20px;
+    /* Adjust the gap size as needed */
+  }
+  
+  .button1 {
+    padding: 10px 20px;
+    /* Adjust the padding to increase button size */
+    font-size: 18px;
+    background-color: lightgreen
+  }
+  
+  .button2 {
+    padding: 10px 20px;
+    /* Adjust the padding to increase button size */
+    font-size: 18px;
+    background-color: red
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  .page-content {
+    margin-left: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-gap {
+    width: 10px;
+    /* Adjust as needed */
+  }
